@@ -4,7 +4,7 @@ from openai import OpenAI
 # Initialize client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=st.secrets["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"]  # store key securely
+    api_key=st.secrets["OPENROUTER_API_KEY"]  # store key securely
 )
 
 # App UI
